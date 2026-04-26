@@ -7,11 +7,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
     <script>
         tailwind.config = {
             theme: {
@@ -23,7 +24,7 @@
                     },
                     
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['DM Sans', 'sans-serif'],
                         display: ['Space Grotesk', 'sans-serif'],
                     },
                     borderRadius: {
@@ -47,7 +48,7 @@
             overflow-x: hidden;
             font-family: var(--font-body);
         }
-        
+       
         
         .font-display {
             font-family: var(--font-display);
@@ -515,7 +516,7 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center relative z-10">
             <div class="reveal">
                 <h1 class="font-display text-5xl sm:text-7xl md:text-9xl font-bold mb-4 leading-none">
-                    BUILD TO <span class="text-lime scribble glow-text">GROWTH</span>
+                    BUILD TO <br> <span class="text-lime scribble glow-text">GROWTH</span>
                 </h1>
                 <div class="inline-block px-4 sm:px-6 py-2 mb-8 glow-lime rounded-full bg-black/50 backdrop-blur-sm">
                     <span class="text-lime text-sm sm:text-base md:text-lg tracking-widest" style="font-weight: 600;">Más que Diseño, Resultados</span>
@@ -562,11 +563,10 @@
                         <img src="img/logo-while.svg" alt="while" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
                         <img src="img/logo-ecolog.svg" alt="Laminproof" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
                         <img src="img/logo-happy-flame.svg" alt="happy flame" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
-                        <!--<img src="img/logo-ubuntu.svg" alt="Talula Floors" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
+                        <img src="img/logo-while.svg" alt="while" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
                         <img src="img/logo-ecolog.svg" alt="Laminproof" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
-                        <img src="img/logo-januel-design.svg" alt="All Baseboards" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
-                        <img src="img/logo-januel-design.svg" alt="Baseboard Direct" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
-                        <img src="img/logo-januel-design.svg" alt="The Green Floors" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">-->
+                        <img src="img/logo-happy-flame.svg" alt="happy flame" class="h-8 sm:h-12 w-auto grayscale hover:grayscale-0 transition-all duration-300">
+                        
                     </div>
                     
                 </div>
@@ -902,55 +902,167 @@
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 items-start">
-                <!-- Growth Starter -->
-                <div class="reveal pricing-card rounded-2xl p-6 sm:p-8">
-                    <h3 class="text-2xl sm:text-3xl font-bold mb-2">Growth Starter</h3>
-                    <p class="text-gray text-sm mb-6">Ideal para: Pequeños negocios que empiezan</p>
-                    <ul class="space-y-3 mb-8 text-sm">
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Estrategia mensual personalizada</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Contenido visual + copy adaptado</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Optimización de activos digitales</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Configuración básica Meta + Google Business</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Project management + reportes</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Diagnóstico inicial incluido</li>
-                        <li class="flex items-start gap-2 text-sm text-gray-400"><svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Plan flexible: en kick-off ajustamos prioridades</li>
-                    </ul>
-                    
-                    <button class="w-full btn-secondary py-3 font-bold " onclick="location.href='#contacto'">AGENDAR LLAMADA</button>
+               <!-- Growth -->
+               <div class="reveal pricing-card rounded-2xl p-6 sm:p-8">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-full bg-lime/10 flex items-center justify-center text-2xl">🌱</div>
+                    <h3 class="text-2xl sm:text-3xl font-bold font-body">Growth</h3>
                 </div>
+                <div class="mb-2">
+                    <!-- <span class="text-4xl sm:text-5xl font-bold text-lime font-display">$600</span>
+                    <span class="text-gray text-lg">/mes</span>-->
+                </div>
+                <p class="text-gray text-sm mb-6 pb-4 border-b border-white/10">3 meses · Hosting GitHub Pages (gratis)</p>
 
-                <!-- Business Pro -->
-                <div class="reveal pricing-card pricing-featured rounded-2xl p-6 sm:p-8 relative" style="transition-delay: 100ms;">
-                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-lime text-black px-4 py-1 rounded-full text-xs font-bold shadow-[0_0_20px_rgba(199,239,0,0.5)]">MÁS ELEGIDO</div>
-                    <h3 class="text-2xl sm:text-3xl font-bold mb-2 text-lime">Business Pro</h3>
-                    <p class="text-gray text-sm mb-6">Ideal para: Negocios en crecimiento</p>
-                    <ul class="space-y-3 mb-8 text-sm">
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Estrategia avanzada con objetivos claros</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Contenido de alto impacto</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Inversión gestionada en Meta/Google Ads</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Diseño de piezas publicitarias</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>SEO básico + automatizaciones simples</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Project management + reportes detallados</li>
-                        <li class="flex items-start gap-2 text-sm text-gray-400"><svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Plan flexible: en kick-off ajustamos prioridades</li>
-                    </ul>
-                    <button class="w-full btn-primary py-3 font-bold" onclick="location.href='#contacto'">AGENDAR LLAMADA</button>
-                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Landing Page + diseño completo</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Logo + branding básico</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>3 videos + 3 stories + 3 posts/mes</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>2 campañas Meta Ads + <strong class="text-lime">$100</strong> inversión</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Automatización básica + <strong>Make.com</strong></span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>CRM Freshsales</strong> gratuito</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Estrategia de crecimiento mensual</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Edición de fotos (10/mes)</span>
+                    </li>
+                </ul>
 
-                <!-- Enterprise Max -->
-                <div class="reveal pricing-card rounded-2xl p-6 sm:p-8" style="transition-delay: 200ms;">
-                    <h3 class="text-2xl sm:text-3xl font-bold mb-2">Enterprise Max</h3>
-                    <p class="text-gray text-sm mb-6">Ideal para: Distribuidores y fabricantes</p>
-                    <ul class="space-y-3 mb-8 text-sm">
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Estrategia integral de Growth Design</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Producción continua de contenido + diseño</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Gestión avanzada de ads + análisis data-driven</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Configuración de CRMs + automatizaciones</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>SEO avanzado + embudos automatizados</li>
-                        <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Soporte 24/7 + reuniones estratégicas</li>
-                        <li class="flex items-start gap-2 text-sm text-gray-400"><svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Plan flexible: en kick-off ajustamos prioridades</li>
-                    </ul>
-                    <button class="w-full btn-secondary py-3 font-bold" onclick="location.href='#contacto'">AGENDAR LLAMADA</button>
+                <div class="bg-lime/5 border border-lime/20 rounded-xl p-4 mb-6">
+                    <p class="text-lime text-sm font-semibold">🎁 Bono trimestral: +1 semana gestión Meta Ads</p>
                 </div>
+                <p class="text-gray text-xs italic mb-6">🛡️ Garantía: mejora 15% leads en 30 días o cancelas</p>
+
+                <button class="w-full btn-secondary py-3 font-bold font-body" onclick="window.open('https://wa.me/584122178393?text=Hola%20Januel%20Design,%20quiero%20más%20información%20sobre%20el%20paquete%20Essential', '_blank')">SOLICITAR INFORMACIÓN</button>
+            </div>
+
+            <!-- Business -->
+            <div class="reveal pricing-card pricing-featured rounded-2xl p-6 sm:p-8 relative" style="transition-delay: 100ms;">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-lime text-black px-4 py-1 rounded-full text-xs font-bold shadow-[0_0_20px_rgba(199,239,0,0.5)]">MÁS ELEGIDO</div>
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-full bg-lime/10 flex items-center justify-center text-2xl">💼</div>
+                    <h3 class="text-2xl sm:text-3xl font-bold font-body text-lime">Business</h3>
+                </div>
+                <div class="mb-2">
+                   <!-- <span class="text-4xl sm:text-5xl font-bold text-lime font-display">$1,350</span>
+                    <span class="text-gray text-lg">/mes</span>-->
+                </div>
+                <p class="text-gray text-sm mb-6 pb-4 border-b border-white/10">3 meses · Hosting GitHub Pages (gratis)</p>
+
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Todo lo de Essential, más:</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>6 videos + 6 stories + 6 posts/mes</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>3 campañas Meta Ads + <strong class="text-lime">$200</strong> inversión</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Kommo omnicanal</strong> (WhatsApp, Messenger, Telegram)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Agente IA Estándar:</strong> 24/7, FAQ, recolecta leads, deriva a humano</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Automatización Pro + gestión de proyectos</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Catálogo digital + merchandising</span>
+                    </li>
+                </ul>
+
+                <div class="bg-lime/5 border border-lime/20 rounded-xl p-4 mb-6">
+                    <p class="text-lime text-sm font-semibold">🎁 Bono trimestral: +1 semana Ads + auditoría competidores</p>
+                </div>
+                <p class="text-gray text-xs italic mb-6">🛡️ +20% conversión en 60 días o rehacemos 1 mes gratis</p>
+
+                <button class="w-full btn-primary py-3 font-bold font-body" onclick="window.open('https://wa.me/584122178393?text=Hola%20Januel%20Design,%20quiero%20más%20información%20sobre%20el%20paquete%20Business', '_blank')">SOLICITAR INFORMACIÓN</button>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="reveal pricing-card rounded-2xl p-6 sm:p-8" style="transition-delay: 200ms;">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 rounded-full bg-lime/10 flex items-center justify-center text-2xl">🏢</div>
+                    <h3 class="text-2xl sm:text-3xl font-bold font-body">Enterprise</h3>
+                </div>
+                <div class="mb-2">
+                   <!-- <span class="text-4xl sm:text-5xl font-bold text-lime font-display">$2,100</span>
+                    <span class="text-gray text-lg">/mes</span>-->
+                </div>
+                <p class="text-gray text-sm mb-6 pb-4 border-b border-white/10">3 meses · Hosting profesional (incluido)</p>
+
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Todo lo de Business, más:</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Web compleja (10+ secciones, animaciones)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Branding profesional + manual de marca</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>9 videos + 9 stories + 9 posts</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong class="text-lime">$300</strong> inversión Meta Ads</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Kommo avanzado + Agente IA Pro</strong></span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Dashboard Looker Studio + auditoría mensual</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm">
+                        <svg class="w-5 h-5 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Solicitudes ilimitadas 24/7</span>
+                    </li>
+                </ul>
+
+                <div class="bg-lime/5 border border-lime/20 rounded-xl p-4 mb-6">
+                    <p class="text-lime text-sm font-semibold">🎁 Bono trimestral: +1 semana Ads + hosting gratis 6 meses extra</p>
+                </div>
+                <p class="text-gray text-xs italic mb-6">🛡️ +25% ingresos en 3 meses o un mes sin coste</p>
+
+                <button class="w-full btn-secondary py-3 font-bold font-body" onclick="window.open('https://wa.me/584122178393?text=Hola%20Januel%20Design,%20quiero%20más%20información%20sobre%20el%20paquete%20Enterprise', '_blank')">SOLICITAR INFORMACIÓN</button>
+            </div>
             </div>
 
             
@@ -1152,20 +1264,13 @@
                         Trabajo con un enfoque data-driven que combina creatividad audaz con decisiones basadas en métricas reales.
                     </p>
                     <a href="https://www.behance.net/janueldesign" target="_blank" class="btn-primary px-6 sm:px-8 py-3 sm:py-4 font-bold inline-flex items-center gap-2 text-sm sm:text-base">
-                        Mi Portafolio Completo (Behance)
+                        Portafolio Completo (Behance)
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
-   
-   
-
-   
-
-    
     
 
     <!-- FAQ -->
